@@ -1,0 +1,21 @@
+product {  
+  display: block;  
+  margin: 10px;  
+  padding: 5px;  
+  width: 300px;  
+  height: 100px;  
+  border: 1px solid #00000;  
+  overflow: auto;  
+  background-color: #cccccc;  
+  font: 12px Arial;  
+}
+
+name, cost, shipping {  
+  display: block;  
+  font-weight: bold;  
+}  
+
+description {  
+  display: block;  
+  font: 11px Arial;  
+}

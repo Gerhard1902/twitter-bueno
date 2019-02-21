@@ -1,0 +1,14 @@
+.Flex{
+	display:flex;
+	flex-direction: row;
+	height: 100%;
+}
+#plane{
+	width: 3%;
+	height: 3%;
+}
+#bar{
+	height: 30px;
+	width:100%;
+	background-color:#AAA;
+}
