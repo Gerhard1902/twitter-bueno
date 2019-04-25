@@ -1,0 +1,26 @@
+<div class="tweet-wrapper row">
+	<div>
+		<img
+			class="small-avatar"
+			src={{@data.user.avatar}}
+		/>
+
+		
+	</div>
+	<div class="column tweet-content">
+		<div class="row">
+			<p class="user-name">
+				
+				<LinkTo
+				@route="app.profile"
+				@model={{@data.user.id}}
+				>
+					{{@data.user.username}}
+				</LinkTo>
+
+			</p>
+			<span class="timestamp">{{@data.createdAt}}</span>
+		</div>
+		<div class="tweet-info">{{@data.description}}</div>
+	</div>
+</div>

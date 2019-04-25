@@ -1,0 +1,14 @@
+<div class="feed-wrapper">
+	{{#each @tweets as |tweet|}}
+
+		<Tweet 
+			@data={{tweet}}
+		/>
+
+	{{else}}
+		
+		{{!-- TODO: empty state --}}
+		<p>No hay tweets</p>
+
+	{{/each}}
+</div>
